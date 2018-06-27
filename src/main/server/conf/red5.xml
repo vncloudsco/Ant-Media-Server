@@ -55,6 +55,11 @@
     		<property name="serverName" value="${ant.media.server.name}" />
     </bean>
     
+    <bean id="logSettings" class="io.antmedia.settings.LogSettings">
+		<property name="logSettings" value="${red5.root}/conf/logback.properties"/>   
+    	</bean>
+    
+    
     
 
 </beans>
