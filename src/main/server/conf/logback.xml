@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<configuration scan="true">
- <property file="${red5.root}/conf/logback.properties"/>
+<configuration scan="true" scanPeriod="15 seconds">
+ <property file="${red5.root}/conf/red5.properties"/>
     <appender class="ch.qos.logback.core.ConsoleAppender" name="CONSOLE">
         <encoder>
             <pattern>[%p] [%thread] %logger - %msg%n</pattern>
