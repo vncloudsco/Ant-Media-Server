@@ -66,6 +66,20 @@ public class WebSocketConstants {
 	public static final String JOIN_COMMAND = "join";
 
 	public static final String JOINED_THE_ROOM = "joinedTheRoom";
+	
+	public static final String RAISE_HAND = "raiseHand";
+
+	public static final String GIVE_PERMISSION = "givePermission";
+
+	public static final String BLOCK_PERMISSION = "blockPermission";
+
+	public static final String CHAT_MESSAGE = "chatMessage";
+
+	public static final String USER_NAME = "userName";
+
+	public static final String SHARE_USER_NAME = "shareUserName";
+
+	public static final String MESSAGE_ID = "messageId";
 
 	/**
 	 * This is peer to peer connection error definition.
