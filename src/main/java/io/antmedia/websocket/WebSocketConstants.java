@@ -81,6 +81,17 @@ public class WebSocketConstants {
 
 	public static final String MESSAGE_ID = "messageId";
 
+	public static final String SHARE_USER_NAME_MESSAGE = "shareUserNameMessage";
+	
+	public static final String BLOCK_PERMISSION_MESSAGE = "blockPermissionMessage";
+
+	public static final String GIVE_PERMISSION_MESSAGE = "givePermissionMessage";
+
+	public static final String RAISE_HAND_MESSAGE = "raiseHandMessage";
+
+	public static final String INCOMING_CHAT_MESSAGE = "incomingChatMessage";
+
+
 	/**
 	 * This is peer to peer connection error definition.
 	 * It is sent back to the user when there is no peer associated with the stream
